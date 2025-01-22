@@ -105,22 +105,38 @@ header{
 
 .jumbotron-container{
     background-color: #0061FE;
-    width: 850px;
+    width: 70%;
     height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.titoli{
+p{
+    padding-bottom: 1rem;
+}
+
+.titolo1{
     display: block;
+    padding-left: 21rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+h1{
+    padding-bottom: 2rem;
+}
+
+.radio{
+    gap: 2rem;
 }
 
 .container1{
     background-color: brown;
     height: 500px;
-    padding-left: 15rem;
-    padding-right: 15rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,8 +156,8 @@ header{
 .container2{
     background-color: coral;
     height: 500px;
-    padding-left: 15rem;
-    padding-right: 15rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,13 +167,13 @@ header{
 h2{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding-left: 16rem;
+    padding-left: 21rem;
 }
 
 .container3{
     background-color: blueviolet;
     height: 200px;
-    padding-left: 15rem;
+    padding-left: 20rem;
     padding-right: 15rem;
     display: flex;
     justify-content: center;
@@ -168,8 +184,8 @@ h2{
 .container4{
     background-color: purple;
     height: 200px;
-    padding-left: 15rem;
-    padding-right: 15rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,20 +207,27 @@ h2{
 .titoli-giù{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding-left: 16rem;
+    padding-left: 21rem;
 }
 
 footer{
     background-color: var(--drop-dark);
     height: 400px;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.footer-container{
-    width: 60%;
-    height: 80%;
+.footer-container1{
+    width: 850px;
+    height: 60%;
     background-color: aquamarine;
-
 }
+
+.footer-container2{
+    width: 850px;
+    height: 20%;
+    background-color: rebeccapurple;
+}
+
