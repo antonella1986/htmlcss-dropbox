@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+  --drop-primary: #B4D0E6;
+  --drop-accent: #0061FE;
+  --drop-light: #ffffff;
+  --drop-dark: #000000;
+}
+
+.debug{
+    border: 1px dashed;
+}
+
+header{
+    background-color: #0061FE;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron{
+    background-color: var(--drop-primary);
+}
