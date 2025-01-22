@@ -16,7 +16,6 @@
 }
 
 header{
-    background-color: #0061FE;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -24,4 +23,20 @@ header{
 
 .jumbotron{
     background-color: var(--drop-primary);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.jumbotron-container{
+    background-color: #0061FE;
+    width: 60%;
+    height: 90%;
+
+}
+
+footer{
+    background-color: var(--drop-dark);
+    height: 400px;
 }
