@@ -12,10 +12,6 @@
   --drop-dark: #000000;
 }
 
-.debug{
-    border: 1px dashed;
-}
-
 .col{
   width: auto;
   flex-basis: auto;
@@ -42,11 +38,10 @@
 
 .col-4{
   width: calc(100% / 12 * 4);
-  background-color: #5d5a5a75;
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -65,11 +60,11 @@
 
 .col-8{
   width: calc(100% / 12 * 8);
-  background-color: #5d5a5a75;
   color: white;
   display: flex;
   justify-content: center;
-  padding: 3rem;
+  align-items: flex-start;
+  align-content: center;
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -169,7 +164,7 @@ header{
 
 .jumbotron{
   background-color: var(--drop-primary);
-  height: 800px;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,8 +183,9 @@ header{
 }
 
 .jumbotron-titolo{
-  padding-left: 2rem;
+  padding-left: 1rem;
   padding-right: 2rem;
+  padding-bottom: 3rem;
   font-size: 70px;
 }
 
@@ -215,8 +211,7 @@ p{
 }
 
 .jumbotron-img{
-  width: 120%;
-  padding-top: 4.5rem;
+  width: 100%;
 }
 
 /* end jumbotron */
@@ -240,11 +235,10 @@ p{
 
 #piani{
   padding-bottom: 1.5rem;
-  padding-top: 4.5rem;
+  padding-top: 5rem;
 }
 
 .container1{
-  background-color: rgb(153, 232, 232);
   height: 950px;
   padding-left: 20rem;
   padding-right: 20rem;
@@ -291,20 +285,29 @@ p{
   color: var(--drop-accent);
 }
 
-
-
-
 .team{
   text-align: center;
-  border: 1px solid lightgrey;
   padding: 0.5rem;
 }
 
 /* end piani */
 
 .container2{
-    background-color: coral;
-    height: 500px;
+  background-color: coral;
+  height: 500px;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+/* start enterprise */
+
+.container-enterprise{
+    height: 250px;
+    border: 1px solid lightgrey;
     padding-left: 20rem;
     padding-right: 20rem;
     display: flex;
@@ -312,6 +315,69 @@ p{
     align-items: center;
     margin-bottom: 0.5rem;
 }
+
+.col-8,enterprise{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 200px;
+}
+
+.enterprise-titolo{
+  line-height: 2rem;
+}
+
+.enterprise-paragrafo{
+  padding-top: 3rem;
+}
+
+.col-4>enterprise{
+  height: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.btn-contatta{
+  background-color: var(--drop-accent);
+  color: white;
+  padding: 0.75rem 2.5rem 0.75rem;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* end enterprise */
+
+/* start partner */
+
+.container-partner{
+  height: 500px;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+
+.btn-partner{
+  background-color: transparent;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.titolo-partner{
+  padding-bottom: 1rem;
+}
+
+.descrizione-partner{
+  padding-top: 10rem;
+}
+
+/* end partner */
 
 h2{
     padding-top: 1rem;
@@ -320,25 +386,21 @@ h2{
 }
 
 .container3{
-    background-color: blueviolet;
-    height: 200px;
-    padding-left: 20rem;
-    padding-right: 15rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0.5rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.container4{
-    background-color: purple;
-    height: 200px;
-    padding-left: 20rem;
-    padding-right: 20rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0.5rem;
+.operazioni{
+  padding: 0.5rem;
+}
+
+.titoletto{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .container>.col-4{
@@ -354,9 +416,14 @@ h2{
   }
 
 .titoli-giù{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 6rem;
+    padding-bottom: 7rem;
     padding-left: 21rem;
+}
+
+.titolo-h3{
+  padding-bottom: 2rem;
+  font-size: 20px;
 }
 
 footer{
