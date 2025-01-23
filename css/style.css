@@ -94,7 +94,7 @@
 /* start header */
 
 header{
-  padding: 1.5rem;
+  padding: 0.25rem 1rem 0.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -116,7 +116,22 @@ header{
   color: #000000;
 }
 
+.menu-dx{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  color: #000000;
+}
+
 .voci-sx{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+  color: #000000;
+}
+
+.voci-dx{
   display: flex;
   align-items: center;
   list-style: none;
@@ -129,13 +144,33 @@ header{
   color: #000000;
 }
 
+.lista-dx{
+  text-decoration: none;
+  color: #000000;
+}
+
+.btn-inizia{
+  background-color: var(--drop-accent);
+  color: white;
+  padding: 0.5rem;    
+  border-style: none;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+    &:hover{
+      background-color: var(--drop-primary);
+      color: #000000;
+      box-shadow: 2px 2px 2px 2px lightgray;
+    }
+}
+
 /* end header */
 
 /* start jumbotron */
 
 .jumbotron{
   background-color: var(--drop-primary);
-  height: 700px;
+  height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -170,12 +205,16 @@ p{
   border-style: none;
   margin-bottom: 1rem;
   margin-top: 1rem;
-
 }
 
 .icone{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.jumbotron-img{
+  width: 120%;
+  padding-top: 4.5rem;
 }
 
 /* end jumbotron */
@@ -187,8 +226,9 @@ p{
   padding-bottom: 3rem;
 }
 
-h1{
-  padding-bottom: 2rem;
+#piani{
+  padding-bottom: 1.5rem;
+  padding-top: 4.5rem;
 }
 
 .radio{
