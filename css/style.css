@@ -94,14 +94,39 @@
 /* start header */
 
 header{
-    padding: 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    position: fixed;
-    width: 100%;
-    background-color: white;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.logo{
+  margin-right: 2rem;
+}
+
+.menu-sx{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  color: #000000;
+}
+
+.voci-sx{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+  color: #000000;
+}
+
+.lista-sx{
+  text-decoration: none;
+  color: #000000;
 }
 
 /* end header */
@@ -109,16 +134,17 @@ header{
 /* start jumbotron */
 
 .jumbotron{
-    background-color: var(--drop-primary);
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: end;
+  background-color: var(--drop-primary);
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .jumbotron-container{
-    width: 70%;
-    height: 450px;
+  width: 70%;
+  height: 450px;
+  padding-top: 1rem;
 }
 
 .row{
@@ -130,20 +156,20 @@ header{
 .jumbotron-titolo{
   padding-left: 2rem;
   padding-right: 2rem;
-
+  font-size: 70px;
 }
 
 p{
-    color: #000000;
+  color: #000000;
 }
 
 .btn-prova{
-    background-color: var(--drop-accent);
-    color: white;
-    padding: 0.75rem;
-    border-style: none;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+  background-color: var(--drop-accent);
+  color: white;
+  padding: 0.75rem;    
+  border-style: none;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 
 }
 
@@ -155,18 +181,18 @@ p{
 /* end jumbotron */
 
 .titolo1{
-    display: block;
-    padding-left: 21rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+  display: block;
+  padding-left: 21rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 h1{
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .radio{
-    display: flex;
+  display: flex;
 }
 
 .container1{
