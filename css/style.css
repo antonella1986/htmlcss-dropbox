@@ -42,12 +42,11 @@
 
 .col-4{
   width: calc(100% / 12 * 4);
-  background-color: #00000075;
+  background-color: #5d5a5a75;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -66,7 +65,7 @@
 
 .col-8{
   width: calc(100% / 12 * 8);
-  background-color: #00000075;
+  background-color: #5d5a5a75;
   color: white;
   display: flex;
   justify-content: center;
@@ -205,6 +204,9 @@ p{
   border-style: none;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icone{
@@ -219,6 +221,8 @@ p{
 
 /* end jumbotron */
 
+/* start business */
+
 .titolo1{
   display: block;
   padding-left: 21rem;
@@ -226,35 +230,75 @@ p{
   padding-bottom: 3rem;
 }
 
+.radio{
+  display: flex;
+}
+
+/* end business */
+
+/* start piani */
+
 #piani{
   padding-bottom: 1.5rem;
   padding-top: 4.5rem;
 }
 
-.radio{
-  display: flex;
-}
-
 .container1{
-    background-color: brown;
-    height: 500px;
-    padding-left: 20rem;
-    padding-right: 20rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: rgb(153, 232, 232);
+  height: 800px;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.colonne{
-    display: flex;
-    justify-content: center;
+.tipologia{
+  text-align: center;
+  border: 1px solid lightgrey;
+  padding: 0.5rem;
 }
+
+.interno-card{
+  padding: 1.5rem;
+  border: 1px solid lightgrey;
+  height: 700px;
+    .parte1{
+      margin-bottom: 2rem;
+      line-height: 2rem;
+    }
+}
+  hr{
+    margin-top: 2rem;
+    width: 30%;
+    color: lightgray;
+  }
+  .parte3{
+    margin-top: 2rem;
+  }
+  .parte2{
+  margin-bottom: 0.25rem;
+  }
+  .caratteristiche1{
+    padding-bottom: 1rem;
+  }
+  .caratteristiche2{
+    padding-bottom: 0.5rem;
+  }
+
+  
+
+
+
 
 .team{
-    text-align: center;
-    border: 1px solid lightgrey;
-    padding: 0.5rem;
+  text-align: center;
+  border: 1px solid lightgrey;
+  padding: 0.5rem;
 }
+
+/* end piani */
 
 .container2{
     background-color: coral;
