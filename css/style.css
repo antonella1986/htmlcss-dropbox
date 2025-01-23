@@ -245,7 +245,7 @@ p{
 
 .container1{
   background-color: rgb(153, 232, 232);
-  height: 800px;
+  height: 950px;
   padding-left: 20rem;
   padding-right: 20rem;
   padding-top: 2rem;
@@ -263,7 +263,7 @@ p{
 .interno-card{
   padding: 1.5rem;
   border: 1px solid lightgrey;
-  height: 700px;
+  height: 830px;
     .parte1{
       margin-bottom: 2rem;
       line-height: 2rem;
@@ -278,16 +278,18 @@ p{
     margin-top: 2rem;
   }
   .parte2{
-  margin-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
   }
   .caratteristiche1{
-    padding-bottom: 1rem;
+    padding-bottom: 0.75rem;
   }
   .caratteristiche2{
     padding-bottom: 0.5rem;
   }
 
-  
+.fa-check{
+  color: var(--drop-accent);
+}
 
 
 
